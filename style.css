@@ -8,7 +8,16 @@ margin:0px}
 
 }
 
+#formlarioout{
+    width: 270px;
+    height:270px
 
+}
+
+
+#imgcadastro{
+    max-width: 100%;
+}
 
 #inicio{
     display:inline-flex;
@@ -16,13 +25,16 @@ margin:0px}
     align-items: center;
     background-color: aquamarine;
     border-top: 50px solid white;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-bottom: 10px;
     height: 500px;
+    
 }
 
 
-
+#imgborn{
+    max-width:35%;
+}
 
 a{padding:10px}
 
@@ -49,11 +61,14 @@ input,button[type=submit]{
     
 }
 
+
+.linkdesktop{border-right: 1px solid var(--fontcont) ;}
+
 a{
     text-decoration: none;
     color: var(--fontcont);
     font-size: 30px;
-    border-right: 1px solid var(--fontcont) ;
+    
     padding-top: 5px;
     padding-bottom: 5px;}
     
@@ -68,7 +83,9 @@ form{
     height:250px;
     width:250px;
     border-radius: 30px;
-    background-color: white;    
+    background-color: white;  
+    
+    
 
 }
 
