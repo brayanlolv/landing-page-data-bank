@@ -23,8 +23,12 @@ let smalltopbaar= ` <div class="dropdown">
 <div id="login">login</div>             
 `
 
+
+
 let larguratela = window.innerWidth
 let topbaar =document.getElementById("topbaar")
+let originalbaar=topbaar.innerHTML
+
 addEventListener("resize",mudou)
 
 if(larguratela<900){
@@ -43,5 +47,9 @@ function mudou(){
     if(larguratela<900){
         topbaar.innerHTML=smalltopbaar ;
     }
-}
+
+    else{
+        topbaar.innerHTML=originalbaar
+    }
+}   
 
