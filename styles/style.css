@@ -1,10 +1,16 @@
 *{padding:0px;
-margin:0px}
+margin:0px;
+}
 
+/* color:var(--fontcont); */
+
+#topbaar{
+    color: black;
+}
 
 :root{
-    --main:#7fffd4;
-    --fontcont:#000000;
+    --main:#3b3f3efb;
+    --fontcont:#fffefe;
 
 }
 
@@ -16,18 +22,19 @@ margin:0px}
 
 
 #imgcadastro{
-    max-width: 100%;
+    max-width: 700px;
 }
 
 #inicio{
     display:inline-flex;
     width:100vw ;
     align-items: center;
-    background-color: aquamarine;
+    background-color:var(--main);
     border-top: 50px solid white;
     justify-content: space-evenly;
     margin-bottom: 10px;
     height: 500px;
+    color:var(--fontcont)
     
 }
 
@@ -36,13 +43,13 @@ margin:0px}
     max-width:35%;
 }
 
-a{padding:10px}
 
 section{
 
     width:100vw  ;
     display: inline-flex;
     justify-content:space-evenly ;
+    color:var(--fontcont);
   
 }
 input::-webkit-inner-spin-button {
@@ -55,20 +62,28 @@ input,button[type=submit]{
     width:200px ;
     border:0;
     border-radius: 15px;
-    background-color:rgba(200, 255, 237, 0.986) ;
+    background-color:#636363fb ;
     border-bottom:1px dotted var(--fontcont) ;
+    color: var(--fontcont);
    
     
 }
 
+section img{
+    border:2px solid black
+}
+
+input::placeholder{
+    color:var(--fontcont)
+}
 
 .linkdesktop{border-right: 1px solid var(--fontcont) ;}
 
 a{
     text-decoration: none;
-    color: var(--fontcont);
+    padding:10px;
     font-size: 30px;
-    
+    color:var(--main);
     padding-top: 5px;
     padding-bottom: 5px;}
     
@@ -122,7 +137,7 @@ img{border: 2px solid var(--fontcont);
 }
 
 #login{margin-right: 50px;
-    color: rgb(50, 184, 155);
+    color: black;
     font-size: 30px;
     font-weight: 900 ;}
 
