@@ -1,18 +1,27 @@
 
 @media screen and (max-width:768px){
 
+#imgcadastro{
+    display: none;
+}
+
+
+
+section img{
+    width:350px;
+    max-width:350px;
     
-    
-section img{display: none};
+
+};
 
     
 
-    nav{
-    width: 100vw;
-    }
+    
 
     #imgcadastro{
         display: none;
+
+       
     }
 
     #inicio{
@@ -27,13 +36,44 @@ section img{display: none};
     }
 
     section{
-       height: 300px;
-       padding-bottom:50px;
-       height:auto
+       height:auto;
+       
+       /* padding-bottom:50px; */
+      
 
         
             
             
     }
+
+    #imgplay{
+        width: 350px;
+    }
+
+    #imgborn{
+        width: 350px;
+        max-width:350px ;
+    }
+
+
+section{
+    flex-direction: column;
+    align-content: center 
+}
+
+    .inverter{ flex-direction: column-reverse
+   ;
+
+    }
+
+
+
+    #imglife{
+        width: 350px;
+        max-width:350px;
+    }
+
+
+    
 
 }
