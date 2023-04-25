@@ -2,18 +2,18 @@
 let smalltopbaar= ` <div class="dropdown">
 <img id="menuicon" src="img/dpicon.png" alt="">
 <div class="dropdown-content">
-    <a href="">criaçao </a>
-    <a href="">proposito </a>
+    <a href="#sobrenos">criação e proposito </a>
     <a href="#sobrenos">sobre nos</a>
     <a href="#play">Play Party</a>
     <a href="#moneyborn">Money Born</a>
-    <a href="securitylife">Securiy Life</a>
-    <a href="">para investidores </a>  
+    <a href="#securitylife">Securiy Life</a>
+    <a class="linkdesktop" download="planodenegocio.pdf" href="">para investidores </a>
+       
     
 </div>
 </div>
 
-
+ 
 <img src="logo.png" alt="" id="logo">
 
 
@@ -51,5 +51,31 @@ function mudou(){
     else{
         topbaar.innerHTML=originalbaar
     }
-}   
+
+ 
+
+
+}  
+
+let lista =document.getElementById("lista")
+
+function mostrar(){ 
+
+lista.style.display="flex";
+lista.style.flexDirection=" column";
+
+
+}
+
+function tirar(){
+    lista.style.display="none";
+
+    
+}
+let servicos =document.getElementById("servicos")
+
+servicos.addEventListener("mouseenter",mostrar)
+servicos.addEventListener("mouseleave",tirar)
+
+
 

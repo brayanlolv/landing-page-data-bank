@@ -42,3 +42,20 @@
 
 }
   
+
+
+#lista{display: none;
+    flex-direction: column;
+  position: absolute;
+  height: 200px;
+  width: 200px;
+  background-color:white;
+ 
+  padding: 12px 16px;
+ 
+  color:black;
+
+}
+
+
+
