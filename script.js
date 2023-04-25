@@ -2,12 +2,12 @@
 let smalltopbaar= ` <div class="dropdown">
 <img id="menuicon" src="img/dpicon.png" alt="">
 <div class="dropdown-content">
-    <a href="#sobrenos">criação e proposito </a>
-    <a href="#sobrenos">sobre nos</a>
+    <a href="#sobrenos">Criação e propósito</a>
+    <a href="#sobrenos">Sobre nos>/a>
     <a href="#play">Play Party</a>
     <a href="#moneyborn">Money Born</a>
     <a href="#securitylife">Securiy Life</a>
-    <a class="linkdesktop" download="planodenegocio.pdf" href="">para investidores </a>
+    <a class="linkdesktop" download="planodenegocio.pdf" href="">Para investidores </a>
        
     
 </div>
